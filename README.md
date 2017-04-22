@@ -11,6 +11,11 @@ Kartenausschnitt:
 - Fußwege
 ```
 
+<br>
+
+![Mapt](http://chrissem.com/data/snap-alster.PNG)
+
+<br>
 
 QUELLE:
 
