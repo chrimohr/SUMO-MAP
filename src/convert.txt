@@ -1,0 +1,6 @@
+netconvert --shapefile-prefix Hamburg_Alster_1stselect --shapefile.street-id osm_id --shapefile.type-id fclass -o new-map.net.xml --shapefile.use-defaults-on-failure
+
+
+
+netconvert --type-files filter.xml --sumo-net-file new-map.net.xml -o filter-map.net.xml
+
