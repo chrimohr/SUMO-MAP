@@ -11,10 +11,10 @@
   <type id="highway.steps"          priority="2"  numLanes="1" speed="1.389"    allow="pedestrian"/>
 
 
-  <type id="highway.primary"        priority="11" numLanes="1" speed="13.889"/>
+  <type id="highway.primary"        priority="11" numLanes="2" speed="13.889"/>
 
-  <type id="highway.secondary"      priority="10" numLanes="1" speed="13.889"/>
-  <type id="highway.secondary_link" priority="10" numLanes="1" speed="13.889"/>
+  <type id="highway.secondary"      priority="10" numLanes="2" speed="13.889"/>
+  <type id="highway.secondary_link" priority="10" numLanes="2" speed="13.889"/>
 
 
   <type id="highway.unclassified"   priority="8"  numLanes="1" speed="13.889"/>
