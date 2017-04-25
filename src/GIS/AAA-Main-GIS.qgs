@@ -13,10 +13,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1112758.07813930441625416</xmin>
-      <ymin>7085378.87060577422380447</ymin>
-      <xmax>1114648.15702364896424115</xmax>
-      <ymax>7087954.78126982599496841</ymax>
+      <xmin>1112921.62802273617126048</xmin>
+      <ymin>7085618.35436365660279989</ymin>
+      <xmax>1114811.70690708071924746</xmax>
+      <ymax>7088194.26502770837396383</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -59,7 +59,7 @@
         <ymax>53.57725219999999666</ymax>
       </extent>
       <id>Hamburg_Alster_v2_020170423150550500</id>
-      <datasource>./Hamburg_Alster-v2.0.shp</datasource>
+      <datasource>D:/AAA-Christoph/001-Schule/SUMO/AAA-GIT/SUMO-MAP/src/GIS/Hamburg_Alster-v2.0.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -800,7 +800,7 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>.</annotationform>
+      <annotationform>D:/AAA-Christoph/001-Schule/SUMO/AAA-GIT/SUMO-MAP/src/GIS</annotationform>
       <aliases>
         <alias field="LINK_ID" index="0" name=""/>
         <alias field="ST_TYP_AFT" index="1" name=""/>
@@ -823,10 +823,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>.</editform>
+      <editform>D:/AAA-Christoph/001-Schule/SUMO/AAA-GIT/SUMO-MAP/src/GIS</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitfilepath>D:/AAA-Christoph/001-Schule/SUMO/AAA-GIT/SUMO-MAP/src/GIS</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
