@@ -61,7 +61,7 @@
       </filegroup>
     </legendlayer>
   </legend>
-  <Composer title="Druckzusammenstellung 1" visible="0">
+  <Composer title="Druckzusammenstellung 1" visible="1">
     <Composition resizeToContentsMarginLeft="5" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="5" worldFileMap="{a9ce20bb-27a8-4074-b538-156eed974540}" alignmentSnap="1" printResolution="300" paperWidth="307.3" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="5" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="222.459" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="5">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -78,6 +78,15 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Quellen:&#xa;daten-hamburg.de/geographie_geologie_geobasisdaten/Kreuzungsskizzen/Kreuzungsskizzen_HH_2014-09-24.zip&#xa;download.geofabrik.de/europe/germany/hamburg-latest-free.shp.zip" htmlState="0" halign="1">
+        <LabelFont description="MS Shell Dlg 2,5,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor red="0" blue="0" green="0"/>
+        <ComposerItem pagey="24.8439" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="199.291" y="24.8439" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="107.066" outlineWidth="0.3" excludeFromExports="0" uuid="{c10f0cf8-9a82-4f89-9d32-47d5f6b3afee}" height="9.27729" itemRotation="0" frame="false" pagex="199.291">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLabel>
       <ComposerLabel valign="32" marginX="5" marginY="5" labelText="" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
@@ -111,7 +120,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerScaleBar>
-      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="v1.0" htmlState="0" halign="1">
+      <ComposerLabel valign="32" marginX="1" marginY="1" labelText="v1.2" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
         <ComposerItem pagey="35.3281" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="217.826" y="35.3281" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="15.0183" outlineWidth="0.3" excludeFromExports="0" uuid="{2cb62587-1d09-44cc-8ca5-d5dd703c6a1e}" height="6.2" itemRotation="0" frame="false" pagex="217.826">
@@ -516,7 +525,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="5.41988" page="1" id="" lastValidViewScaleFactor="3.84931" positionMode="0" positionLock="false" x="5.15" y="5.41988" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="193.991" outlineWidth="0.3" excludeFromExports="0" uuid="{abd19550-1195-41ae-9e0d-6e8ff8a837cf}" height="210" itemRotation="0" frame="true" pagex="5.15">
+        <ComposerItem pagey="5.41988" page="1" id="" lastValidViewScaleFactor="1.92465" positionMode="0" positionLock="false" x="5.15" y="5.41988" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="193.991" outlineWidth="0.3" excludeFromExports="0" uuid="{abd19550-1195-41ae-9e0d-6e8ff8a837cf}" height="210" itemRotation="0" frame="true" pagex="5.15">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1406,7 +1415,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="42.2298" page="1" id="" lastValidViewScaleFactor="3.84931" positionMode="0" positionLock="false" x="199.141" y="42.2298" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="102.859" outlineWidth="0.3" excludeFromExports="0" uuid="{a98b79c8-e56a-45a4-9754-08c4d6e9900f}" height="49.9855" itemRotation="0" frame="true" pagex="199.141">
+        <ComposerItem pagey="42.2298" page="1" id="" lastValidViewScaleFactor="1.92465" positionMode="0" positionLock="false" x="199.141" y="42.2298" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="102.859" outlineWidth="0.3" excludeFromExports="0" uuid="{a98b79c8-e56a-45a4-9754-08c4d6e9900f}" height="49.9855" itemRotation="0" frame="true" pagex="199.141">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2233,7 +2242,7 @@ def my_form_open(dialog, layer, feature):
           <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="92.5153" page="1" id="" lastValidViewScaleFactor="30.7945" positionMode="0" positionLock="false" x="199.141" y="92.5153" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.009" outlineWidth="0.3" excludeFromExports="0" uuid="{a9ce20bb-27a8-4074-b538-156eed974540}" height="122.755" itemRotation="0" frame="true" pagex="199.141">
+        <ComposerItem pagey="92.5153" page="1" id="" lastValidViewScaleFactor="1.92465" positionMode="0" positionLock="false" x="199.141" y="92.5153" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.009" outlineWidth="0.3" excludeFromExports="0" uuid="{a9ce20bb-27a8-4074-b538-156eed974540}" height="122.755" itemRotation="0" frame="true" pagex="199.141">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>

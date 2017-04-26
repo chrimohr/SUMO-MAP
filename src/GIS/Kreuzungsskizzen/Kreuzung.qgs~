@@ -3,12 +3,12 @@
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
-  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="Kreuzungsskizze20170426195543394" name="Kreuzungsskizze">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hamburg_Alster_v2_020170423150550500" name="Hamburg_Alster-v2.0">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Hamburg_Alster_v2_020170423150550500" name="Hamburg_Alster-v2.0">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -16,10 +16,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>1113213.22503279079683125</xmin>
-      <ymin>7086374.24696290772408247</ymin>
-      <xmax>1113685.74474714626558125</xmax>
-      <ymax>7087018.22462404053658247</ymax>
+      <xmin>1113334.82309504225850105</xmin>
+      <ymin>7086540.35231200978159904</ymin>
+      <xmax>1113571.08295221999287605</xmax>
+      <ymax>7086862.34114257618784904</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -55,9 +55,9 @@
         <legendlayerfile isInOverview="0" layerid="Kreuzungsskizze20170426195543394" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Hamburg_Alster-v2.0" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Hamburg_Alster-v2.0" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Hamburg_Alster_v2_020170423150550500" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Hamburg_Alster_v2_020170423150550500" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -81,7 +81,7 @@
       <ComposerLabel valign="32" marginX="5" marginY="5" labelText="" htmlState="0" halign="1">
         <LabelFont description="MS Shell Dlg 2,10,-1,5,50,0,0,0,0,0" style=""/>
         <FontColor red="0" blue="0" green="0"/>
-        <ComposerItem pagey="179.513" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="243.81" y="179.513" visibility="1" zValue="18" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.2232" outlineWidth="0.5" excludeFromExports="0" uuid="{fef26895-c3b5-436f-bed5-82a935aebcae}" height="6.26736" itemRotation="0" frame="true" pagex="243.81">
+        <ComposerItem pagey="179.513" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="243.81" y="179.513" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="10.2232" outlineWidth="0.5" excludeFromExports="0" uuid="{fef26895-c3b5-436f-bed5-82a935aebcae}" height="6.26736" itemRotation="0" frame="true" pagex="243.81">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -2251,7 +2251,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>53.57725219999999666</ymax>
       </extent>
       <id>Hamburg_Alster_v2_020170423150550500</id>
-      <datasource>D:/AAA-Christoph/001-Schule/SUMO/AAA-GIT/SUMO-MAP/src/GIS/Hamburg_Alster-v2.0.shp</datasource>
+      <datasource>../Hamburg_Alster-v2.0.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -2992,7 +2992,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform>D:/AAA-Christoph/001-Schule/SUMO/AAA-GIT/SUMO-MAP/src/GIS</annotationform>
+      <annotationform>..</annotationform>
       <aliases>
         <alias field="LINK_ID" index="0" name=""/>
         <alias field="ST_TYP_AFT" index="1" name=""/>
@@ -3015,10 +3015,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform>D:/AAA-Christoph/001-Schule/SUMO/AAA-GIT/SUMO-MAP/src/GIS</editform>
+      <editform>..</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath>D:/AAA-Christoph/001-Schule/SUMO/AAA-GIT/SUMO-MAP/src/GIS</editforminitfilepath>
+      <editforminitfilepath>..</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -3046,7 +3046,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Kreuzungsskizze20170426195543394</id>
-      <datasource>D:/AAA-Christoph/001-Schule/SUMO/GIS/Kreuzungsskizzen/Kreuzungsskizze.shp</datasource>
+      <datasource>./Kreuzungsskizze.shp</datasource>
       <keywordList>
         <value></value>
       </keywordList>
