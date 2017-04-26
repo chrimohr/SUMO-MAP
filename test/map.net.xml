@@ -3300,7 +3300,7 @@
     </edge>
 
     <tlLogic id="154" type="static" programID="0" offset="0">
-        <phase duration="41" state="GGGrrr"/>
+        <phase duration="10" state="GGGrrr"/>
         <phase duration="4" state="yyyrrr"/>
         <phase duration="41" state="rrrGGG"/>
         <phase duration="4" state="rrryyy"/>
