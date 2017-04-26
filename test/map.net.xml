@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Mi 26 Apr 2017 21:59:27 CEST by Netedit Version 0.25.0
+<!-- generated on Mi 26 Apr 2017 22:15:30 CEST by Netedit Version 0.25.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
@@ -2230,9 +2230,9 @@
     </edge>
     <edge id=":gneJ20_0" function="internal">
         <lane id=":gneJ20_0_0" index="0" speed="13.90" length="3.42" shape="962.93,623.90 966.28,624.61"/>
-        <lane id=":gneJ20_0_1" index="1" speed="13.90" length="3.42" shape="962.93,623.90 964.13,627.11"/>
-        <lane id=":gneJ20_0_2" index="2" speed="13.90" length="3.42" shape="960.78,626.40 961.97,629.60"/>
-        <lane id=":gneJ20_0_3" index="3" speed="13.90" length="3.42" shape="958.62,628.89 959.82,632.10"/>
+        <lane id=":gneJ20_0_1" index="1" speed="13.90" length="3.42" shape="960.77,626.40 964.12,627.11"/>
+        <lane id=":gneJ20_0_2" index="2" speed="13.90" length="3.42" shape="958.62,628.90 961.97,629.61"/>
+        <lane id=":gneJ20_0_3" index="3" speed="13.90" length="3.42" shape="958.62,628.90 959.81,632.11"/>
     </edge>
     <edge id=":gneJ5_0" function="internal">
         <lane id=":gneJ5_0_0" index="0" speed="13.89" length="15.15" shape="1043.35,718.84 1038.84,718.64 1035.76,718.52 1032.68,718.38 1028.18,718.13"/>
@@ -2748,14 +2748,14 @@
     </edge>
     <edge id="186713412.0" from="85" to="gneJ20" priority="0" type="secondary" spreadType="center" shape="885.97,547.70 888.05,551.07 894.91,562.19 900.55,570.46 907.74,579.41 915.17,586.83 921.22,592.28 961.91,627.38">
         <lane id="186713412.0_0" index="0" speed="13.90" length="118.27" shape="884.12,538.42 890.86,549.34 897.68,560.39 903.20,568.49 910.20,577.20 917.44,584.43 923.40,589.80 962.93,623.90"/>
-        <lane id="186713412.0_1" index="1" speed="13.90" length="118.27" shape="881.31,540.15 888.05,551.07 894.91,562.19 900.55,570.46 907.74,579.41 915.17,586.83 921.22,592.28 960.78,626.40"/>
-        <lane id="186713412.0_2" index="2" speed="13.90" length="118.27" shape="878.50,541.88 885.24,552.80 892.14,563.99 897.90,572.43 905.28,581.62 912.90,589.23 919.04,594.76 958.62,628.89"/>
+        <lane id="186713412.0_1" index="1" speed="13.90" length="118.27" shape="881.31,540.15 888.05,551.07 894.91,562.19 900.55,570.46 907.74,579.41 915.17,586.83 921.22,592.28 960.77,626.40"/>
+        <lane id="186713412.0_2" index="2" speed="13.90" length="118.27" shape="878.50,541.88 885.24,552.80 892.14,563.99 897.90,572.43 905.28,581.62 912.90,589.23 919.04,594.76 958.62,628.90"/>
     </edge>
     <edge id="186713412.110" from="gneJ20" to="154" priority="0" type="secondary" spreadType="center" shape="961.91,627.38 976.61,640.05 979.69,642.62 985.56,649.06">
         <lane id="186713412.110_0" index="0" speed="13.90" length="23.22" shape="966.28,624.61 979.83,636.29 983.12,639.04 984.23,640.25"/>
-        <lane id="186713412.110_1" index="1" speed="13.90" length="23.22" shape="964.13,627.11 977.68,638.80 980.83,641.43 981.79,642.47"/>
-        <lane id="186713412.110_2" index="2" speed="13.90" length="23.22" shape="961.97,629.60 975.54,641.30 978.55,643.81 979.35,644.69"/>
-        <lane id="186713412.110_3" index="3" speed="13.90" length="23.22" shape="959.82,632.10 973.39,643.81 976.26,646.20 976.91,646.92"/>
+        <lane id="186713412.110_1" index="1" speed="13.90" length="23.22" shape="964.12,627.11 977.68,638.80 980.83,641.43 981.79,642.47"/>
+        <lane id="186713412.110_2" index="2" speed="13.90" length="23.22" shape="961.97,629.61 975.54,641.30 978.55,643.81 979.35,644.69"/>
+        <lane id="186713412.110_3" index="3" speed="13.90" length="23.22" shape="959.81,632.11 973.39,643.81 976.26,646.20 976.91,646.92"/>
     </edge>
     <edge id="186713415" from="201" to="272" priority="0" type="secondary" spreadType="center">
         <lane id="186713415_0" index="0" speed="13.90" length="5.84" shape="853.25,528.65 848.67,532.26"/>
@@ -4393,7 +4393,7 @@
     </junction>
     <junction id="gneJ15" type="unregulated" x="1093.23" y="803.37" incLanes="gneE11_0" intLanes=":gneJ15_0_0" shape="1093.20,803.33 1091.38,800.70 1095.08,806.04 1093.26,803.41"/>
     <junction id="gneJ19" type="unregulated" x="1201.97" y="754.27" incLanes="gneE15_0" intLanes=":gneJ19_0_0" shape="1201.98,754.32 1202.69,757.44 1201.25,751.10 1201.96,754.22"/>
-    <junction id="gneJ20" type="priority" x="961.91" y="627.38" incLanes="186713412.0_0 186713412.0_1 186713412.0_2" intLanes=":gneJ20_0_0 :gneJ20_0_1 :gneJ20_0_2 :gneJ20_0_3" shape="958.77,633.32 967.33,623.39 963.98,622.69 957.58,630.11">
+    <junction id="gneJ20" type="priority" x="961.91" y="627.38" incLanes="186713412.0_0 186713412.0_1 186713412.0_2" intLanes=":gneJ20_0_0 :gneJ20_0_1 :gneJ20_0_2 :gneJ20_0_3" shape="958.77,633.32 967.32,623.40 963.97,622.69 957.57,630.11">
         <request index="0" response="0000" foes="0000" cont="0"/>
         <request index="1" response="0000" foes="0000" cont="0"/>
         <request index="2" response="0000" foes="0000" cont="0"/>
@@ -4861,8 +4861,8 @@
     <connection from="186713411" to="480873120" fromLane="0" toLane="0" via=":380_0_0" dir="s" state="M"/>
     <connection from="186713411" to="186713406" fromLane="2" toLane="0" via=":380_1_0" dir="s" state="M"/>
     <connection from="186713412.0" to="186713412.110" fromLane="0" toLane="0" via=":gneJ20_0_0" dir="s" state="M"/>
-    <connection from="186713412.0" to="186713412.110" fromLane="0" toLane="1" via=":gneJ20_0_1" dir="s" state="M"/>
-    <connection from="186713412.0" to="186713412.110" fromLane="1" toLane="2" via=":gneJ20_0_2" dir="s" state="M"/>
+    <connection from="186713412.0" to="186713412.110" fromLane="1" toLane="1" via=":gneJ20_0_1" dir="s" state="M"/>
+    <connection from="186713412.0" to="186713412.110" fromLane="2" toLane="2" via=":gneJ20_0_2" dir="s" state="M"/>
     <connection from="186713412.0" to="186713412.110" fromLane="2" toLane="3" via=":gneJ20_0_3" dir="s" state="M"/>
     <connection from="186713412.110" to="40016270" fromLane="0" toLane="0" via=":154_0_0" tl="154" linkIndex="0" dir="s" state="o"/>
     <connection from="186713412.110" to="40016270" fromLane="1" toLane="1" via=":154_0_1" tl="154" linkIndex="1" dir="s" state="o"/>
