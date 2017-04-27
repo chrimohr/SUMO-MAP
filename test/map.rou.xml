@@ -11,10 +11,6 @@
 
 <flows>
 
-  <flow id="bike" type="Bike"  from="-gneE15" to="gneE11" begin="0.00" period="5" number="400" color="1,1,1"/>
-  <flow id="bike2" type="Bike"  from="-gneE15" to="-340675955" begin="0.00" period="5" number="400" color="1,1,1"/>
-
-
 
 
     <flow id="flow0" type="Car"  from="199239120" to="340675956" begin="0.00" period="5" number="400" color="1,0,0"/>
