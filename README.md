@@ -1,6 +1,8 @@
 # SUMO-MAP
 Kartendaten für das SUMO Projekt des Physikprofils im Eimsbüttler Modell.
 
+## in arbeit
+
 Kartenausschnitt: 
  - Östlichen Außenalster
  - Binnen Alster
@@ -13,7 +15,7 @@ Kartenausschnitt:
 
 <br>
 
-![Mapt](http://chrissem.com/data/snap-alster.PNG)
+![Map](http://chrissem.com/data/snap-alster.PNG)
 
 <br>
 
