@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Do 27 Apr 2017 12:50:53 CEST by Netedit Version 0.25.0
+<!-- generated on Do 27 Apr 2017 13:03:14 CEST by Netedit Version 0.25.0
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
@@ -2077,18 +2077,19 @@
         <lane id=":79_5_0" index="0" speed="13.90" length="2.41" shape="1911.81,1549.75 1912.60,1550.23 1913.30,1551.54"/>
     </edge>
     <edge id=":81_0" function="internal">
-        <lane id=":81_0_0" index="0" speed="13.89" length="28.44" shape="1007.88,716.94 999.09,715.41 992.77,712.81 987.22,710.29 980.76,708.98"/>
+        <lane id=":81_0_0" index="0" speed="13.89" length="28.47" shape="1007.88,716.94 999.09,715.41 992.77,712.81 987.22,710.29 980.76,708.98"/>
+        <lane id=":81_0_1" index="1" speed="13.89" length="28.47" shape="1008.07,713.64 999.27,712.11 992.93,709.51 987.37,706.99 980.90,705.69"/>
     </edge>
-    <edge id=":81_1" function="internal">
-        <lane id=":81_1_0" index="0" speed="13.89" length="28.17" shape="1008.07,713.64 999.67,712.63 994.13,710.60 989.10,707.17 982.18,701.98"/>
-        <lane id=":81_1_1" index="1" speed="13.89" length="28.17" shape="1008.26,710.35 1000.41,709.38 995.26,707.43 990.56,704.18 984.10,699.29"/>
-    </edge>
-    <edge id=":81_3" function="internal">
-        <lane id=":81_3_0" index="0" speed="13.89" length="25.62" shape="1006.47,705.82 1004.70,706.16 999.85,706.25 991.91,706.10 980.90,705.69"/>
+    <edge id=":81_2" function="internal">
+        <lane id=":81_2_0" index="0" speed="13.89" length="28.17" shape="1008.07,713.64 999.67,712.63 994.13,710.60 989.10,707.17 982.18,701.98"/>
+        <lane id=":81_2_1" index="1" speed="13.89" length="28.17" shape="1008.26,710.35 1000.41,709.38 995.26,707.43 990.56,704.18 984.10,699.29"/>
     </edge>
     <edge id=":81_4" function="internal">
-        <lane id=":81_4_0" index="0" speed="13.89" length="19.34" shape="1003.51,704.37 1001.09,706.51 997.05,706.37 991.39,703.97 984.10,699.29"/>
-        <lane id=":81_4_1" index="1" speed="13.89" length="19.34" shape="1000.55,702.92 999.08,703.66 996.17,702.86 991.82,700.51 986.02,696.61"/>
+        <lane id=":81_4_0" index="0" speed="13.89" length="25.62" shape="1006.47,705.82 1004.70,706.16 999.85,706.25 991.91,706.10 980.90,705.69"/>
+    </edge>
+    <edge id=":81_5" function="internal">
+        <lane id=":81_5_0" index="0" speed="13.89" length="19.34" shape="1003.51,704.37 1001.09,706.51 997.05,706.37 991.39,703.97 984.10,699.29"/>
+        <lane id=":81_5_1" index="1" speed="13.89" length="19.34" shape="1000.55,702.92 999.08,703.66 996.17,702.86 991.82,700.51 986.02,696.61"/>
     </edge>
     <edge id=":84_0" function="internal">
         <lane id=":84_0_0" index="0" speed="13.90" length="5.31" shape="868.04,516.76 867.07,517.87 866.64,519.02 866.76,520.22 867.43,521.45"/>
@@ -3323,14 +3324,14 @@
         <phase duration="4" state="rrryyy"/>
     </tlLogic>
     <tlLogic id="81" type="static" programID="0" offset="0">
-        <phase duration="41" state="GGGrrr"/>
-        <phase duration="4" state="yyyrrr"/>
-        <phase duration="41" state="GrrGGG"/>
-        <phase duration="4" state="yrryyy"/>
+        <phase duration="41" state="GGGGrrr"/>
+        <phase duration="4" state="yyyyrrr"/>
+        <phase duration="41" state="rrrrGGG"/>
+        <phase duration="4" state="rrrryyy"/>
     </tlLogic>
     <tlLogic id="gneJ21" type="static" programID="0" offset="0">
         <phase duration="87" state="GG"/>
-        <phase duration="03" state="yy"/>
+        <phase duration="3" state="yy"/>
         <phase duration="20" state="rr"/>
     </tlLogic>
     <tlLogic id="gneJ5" type="static" programID="0" offset="0">
@@ -4294,13 +4295,14 @@
         <request index="3" response="0001" foes="0001" cont="1"/>
     </junction>
     <junction id="8" type="unregulated" x="1627.29" y="2497.57" incLanes="" intLanes="" shape="1628.28,2499.46 1629.05,2496.36 1626.19,2495.74 1625.61,2498.88"/>
-    <junction id="81" type="traffic_light" x="996.22" y="707.99" incLanes="gneE4_0 gneE4_1 gneE4_2 gneE1_0 gneE1_1 gneE1_2" intLanes=":81_0_0 :81_1_0 :81_1_1 :81_3_0 :81_4_0 :81_4_1" shape="1007.78,718.54 1008.36,708.75 1007.91,706.52 999.11,702.21 986.96,695.31 981.24,703.28 980.96,704.09 980.69,710.58">
-        <request index="0" response="000000" foes="000000" cont="0"/>
-        <request index="1" response="000000" foes="111000" cont="0"/>
-        <request index="2" response="000000" foes="111000" cont="0"/>
-        <request index="3" response="000110" foes="000110" cont="0"/>
-        <request index="4" response="000110" foes="000110" cont="0"/>
-        <request index="5" response="000110" foes="000110" cont="0"/>
+    <junction id="81" type="traffic_light" x="996.22" y="707.99" incLanes="gneE4_0 gneE4_1 gneE4_2 gneE1_0 gneE1_1 gneE1_2" intLanes=":81_0_0 :81_0_1 :81_2_0 :81_2_1 :81_4_0 :81_5_0 :81_5_1" shape="1007.78,718.54 1008.36,708.75 1007.91,706.52 999.11,702.21 986.96,695.31 981.24,703.28 980.96,704.09 980.69,710.58">
+        <request index="0" response="0000000" foes="0010000" cont="0"/>
+        <request index="1" response="0000000" foes="0010000" cont="0"/>
+        <request index="2" response="0000000" foes="1110000" cont="0"/>
+        <request index="3" response="0000000" foes="1110000" cont="0"/>
+        <request index="4" response="0001111" foes="0001111" cont="0"/>
+        <request index="5" response="0001100" foes="0001100" cont="0"/>
+        <request index="6" response="0001100" foes="0001100" cont="0"/>
     </junction>
     <junction id="84" type="priority" x="865.55" y="518.94" incLanes="350033485_0 51200769_0" intLanes=":84_0_0 :84_1_0 :84_2_0 :84_4_0" shape="866.15,522.41 868.71,520.50 869.09,517.97 866.99,515.56 865.01,515.31 862.37,517.11 862.09,519.63 864.07,522.14">
         <request index="0" response="0000" foes="0100" cont="0"/>
@@ -5141,9 +5143,9 @@
     <connection from="82932016" to="186624436" fromLane="0" toLane="0" via=":52_2_0" dir="s" state="m"/>
     <connection from="82932016" to="15090399" fromLane="0" toLane="0" via=":52_3_0" dir="l" state="m"/>
     <connection from="87506241" to="-87506241" fromLane="0" toLane="0" via=":245_0_0" dir="t" state="M"/>
-    <connection from="gneE1" to="186713419.0" fromLane="0" toLane="1" via=":81_3_0" tl="81" linkIndex="3" dir="L" state="o"/>
-    <connection from="gneE1" to="24505980" fromLane="1" toLane="1" via=":81_4_0" tl="81" linkIndex="4" dir="l" state="o"/>
-    <connection from="gneE1" to="24505980" fromLane="2" toLane="2" via=":81_4_1" tl="81" linkIndex="5" dir="l" state="o"/>
+    <connection from="gneE1" to="186713419.0" fromLane="0" toLane="1" via=":81_4_0" tl="81" linkIndex="4" dir="L" state="o"/>
+    <connection from="gneE1" to="24505980" fromLane="1" toLane="1" via=":81_5_0" tl="81" linkIndex="5" dir="l" state="o"/>
+    <connection from="gneE1" to="24505980" fromLane="2" toLane="2" via=":81_5_1" tl="81" linkIndex="6" dir="l" state="o"/>
     <connection from="gneE2" to="gneE4" fromLane="0" toLane="0" via=":gneJ5_3_0" tl="gneJ5" linkIndex="3" dir="l" state="o"/>
     <connection from="gneE2" to="gneE4" fromLane="1" toLane="1" via=":gneJ5_3_1" tl="gneJ5" linkIndex="4" dir="l" state="o"/>
     <connection from="gneE2" to="gneE4" fromLane="2" toLane="2" via=":gneJ5_3_2" tl="gneJ5" linkIndex="5" dir="l" state="o"/>
@@ -5151,8 +5153,9 @@
     <connection from="gneE3" to="gneE4" fromLane="1" toLane="1" via=":gneJ5_0_1" tl="gneJ5" linkIndex="1" dir="s" state="o"/>
     <connection from="gneE3" to="gneE4" fromLane="2" toLane="2" via=":gneJ5_0_2" tl="gneJ5" linkIndex="2" dir="s" state="o"/>
     <connection from="gneE4" to="186713419.0" fromLane="0" toLane="0" via=":81_0_0" tl="81" linkIndex="0" dir="s" state="o"/>
-    <connection from="gneE4" to="24505980" fromLane="1" toLane="0" via=":81_1_0" tl="81" linkIndex="1" dir="s" state="o"/>
-    <connection from="gneE4" to="24505980" fromLane="2" toLane="1" via=":81_1_1" tl="81" linkIndex="2" dir="s" state="o"/>
+    <connection from="gneE4" to="186713419.0" fromLane="1" toLane="1" via=":81_0_1" tl="81" linkIndex="1" dir="s" state="o"/>
+    <connection from="gneE4" to="24505980" fromLane="1" toLane="0" via=":81_2_0" tl="81" linkIndex="2" dir="s" state="o"/>
+    <connection from="gneE4" to="24505980" fromLane="2" toLane="1" via=":81_2_1" tl="81" linkIndex="3" dir="s" state="o"/>
 
     <connection from=":0_0" to="40129888" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":0_1" to="3404421" fromLane="0" toLane="0" dir="s" state="M"/>
@@ -5878,11 +5881,12 @@
     <connection from=":79_3" to="136106807" fromLane="0" toLane="0" via=":79_5_0" dir="s" state="m"/>
     <connection from=":79_5" to="136106807" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":81_0" to="186713419.0" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":81_1" to="24505980" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":81_1" to="24505980" fromLane="1" toLane="1" dir="s" state="M"/>
-    <connection from=":81_3" to="186713419.0" fromLane="0" toLane="1" dir="s" state="M"/>
-    <connection from=":81_4" to="24505980" fromLane="0" toLane="1" dir="s" state="M"/>
-    <connection from=":81_4" to="24505980" fromLane="1" toLane="2" dir="s" state="M"/>
+    <connection from=":81_0" to="186713419.0" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":81_2" to="24505980" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":81_2" to="24505980" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":81_4" to="186713419.0" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":81_5" to="24505980" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":81_5" to="24505980" fromLane="1" toLane="2" dir="s" state="M"/>
     <connection from=":84_0" to="23947919" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":84_1" to="51200770" fromLane="0" toLane="0" dir="s" state="M"/>
     <connection from=":84_2" to="23947919" fromLane="0" toLane="0" dir="s" state="M"/>
