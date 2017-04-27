@@ -3329,8 +3329,9 @@
         <phase duration="4" state="yrryyy"/>
     </tlLogic>
     <tlLogic id="gneJ21" type="static" programID="0" offset="0">
-        <phase duration="86" state="GG"/>
-        <phase duration="4" state="yy"/>
+        <phase duration="87" state="GG"/>
+        <phase duration="03" state="yy"/>
+        <phase duration="20" state="rr"
     </tlLogic>
     <tlLogic id="gneJ5" type="static" programID="0" offset="0">
         <phase duration="41" state="GGGrrr"/>
