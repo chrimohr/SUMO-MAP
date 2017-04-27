@@ -3318,10 +3318,15 @@
         <phase duration="4" state="yyyy"/>
     </tlLogic>
     <tlLogic id="72" type="static" programID="0" offset="0">
+        <phase duration="57" state="GGGrrr"/>
+        <phase duration="02" state="yyyrrr"/>
+        <phase duration="30" state="rrrGGG"/>
+<!--
         <phase duration="41" state="GGGrrr"/>
         <phase duration="4" state="yyyrrr"/>
         <phase duration="41" state="rrrGGG"/>
         <phase duration="4" state="rrryyy"/>
+-->
     </tlLogic>
     <tlLogic id="81" type="static" programID="0" offset="0">
         <phase duration="41" state="GGGGrrr"/>
