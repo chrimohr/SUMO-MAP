@@ -3321,6 +3321,7 @@
         <phase duration="57" state="GGGrrr"/>
         <phase duration="02" state="yyyrrr"/>
         <phase duration="30" state="rrrGGG"/>
+        <phase duration="02" state="rrryyy"/>
 <!--
         <phase duration="41" state="GGGrrr"/>
         <phase duration="4" state="yyyrrr"/>
