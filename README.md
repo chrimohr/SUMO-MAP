@@ -1,8 +1,6 @@
 # SUMO-MAP
 Kartendaten für das SUMO Projekt des Physikprofils im Eimsbüttler Modell.
 
-## in arbeit
-
 Kartenausschnitt: 
  - Östlichen Außenalster
  - Binnen Alster
@@ -10,7 +8,6 @@ Kartenausschnitt:
 ```
 - Straßen
 - Radwege
-- Fußwege
 ```
 
 <br>
