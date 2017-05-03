@@ -13,14 +13,18 @@
 
 
 
-    <flow id="flow0" type="Car"  from="199239120" to="340675956" begin="0.00" period="5" number="400" color="1,0,0"/>
-    <flow id="flow1" type="Car"  from="199239120" to="186713411" begin="0.00" period="5" number="400" color="0,1,0"/>
+    <flow id="flow0" type="Car"  from="gneE41" to="186624433" begin="0.00" period="5" number="400" color="1,0,0"/>
+    <flow id="flow1" type="Car"  from="gneE41" to="487385465" begin="0.00" period="5" number="400" color="0,1,0"/>
 
-    <flow id="flow2" type="Car"  from="186713412.0" to="-142692918" begin="0.00" period="15" number="400" color="0,0,1"/>
-    <flow id="flow3" type="Car"  from="186713412.0" to="340675956" begin="0.00" period="5" number="400" color="0,1,1"/>
+    <flow id="flow2" type="Car"  from="186624433" to="gneE40" begin="0.00" period="15" number="400" color="0,0,1"/>
+    <flow id="flow3" type="Car"  from="186624433" to="487385465" begin="0.00" period="5" number="400" color="0,1,1"/>
 
-    <flow id="flow4" type="Car"  from="-340675956" to="-142692918" begin="0.00" period="5" number="400" color="1,0,1"/>
-    <flow id="flow5" type="Car"  from="-340675956" to="186713411" begin="0.00" period="5" number="400" color="1,1,1"/>
+    <flow id="flow4" type="Car"  from="39097375" to="-19729394" begin="0.00" period="5" number="400" color="1,0,1"/>
+    <flow id="flow5" type="Car"  from="-19729394" to="186624435" begin="0.00" period="5" number="400" color="1,0,1"/>
+
+    <flow id="flow6" type="Car"  from="gneE20.0" to="39097375" begin="0.00" period="5" number="400" color="1,1,0"/>
+    <flow id="flow7" type="Car"  from="gneE20.0" to="gneE37" begin="0.00" period="5" number="400" color="0,1,1"/>
+
 
 
 
