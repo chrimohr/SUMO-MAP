@@ -13,7 +13,7 @@ Kartenausschnitt:
 <br>
 
 ![Map](http://chrissem.com/data/snap-alster.PNG)
-
+<br>
 <br>
 
 QUELLE:
